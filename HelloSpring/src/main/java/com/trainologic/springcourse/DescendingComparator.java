@@ -15,5 +15,6 @@ public class DescendingComparator<T> implements Comparator<T> {
 		
 		return -1 * (delegate.compare(o1, o2));
 	}
+	
 
 }
